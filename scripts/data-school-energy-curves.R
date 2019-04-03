@@ -67,4 +67,4 @@ curves_fill_p <- curve_tbl %>%
         legend.title = element_blank(),
         legend.position = "top")
 
-ggsave("figures/data-school-energy-curve.png", width = 12, height = 10)
+ggsave("figures/data-school-energy-curve-filled.png", curves_fill_p, width = 12, height = 10)
